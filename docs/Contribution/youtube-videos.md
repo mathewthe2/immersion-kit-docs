@@ -4,14 +4,23 @@ We can use captioned Youtube videos to create example sentences in Immersion Kit
 
 ## Find videos with creator subtitles
 
-First locate a YouTube channel and copy its channel ID.
+Locate a YouTube channel and copy its channel ID.
+
+For example we have the following link:
+
+    https://www.youtube.com/channel/UCAzeU2QJI8_ImQoUtNTIGfA
+
+The channel ID is *==UCAzeU2QJI8_ImQoUtNTIGfA==*
 
 ![image](../../assets/youtube-channel-id.png)
 
-Next, visit captionpop and search videos by channel ID:
+!!! info 
+    If you are having trouble locating the channel ID, select one of the videos in a channel and on the video page click on the channel's link to be redirected back to an address that contains the channel ID.
+
+Visit captionpop and search videos by the channel ID you obtained:
 
 ```
-https://www.captionpop.com/japanese?channelId=[Channel ID]
+https://www.captionpop.com/japanese?channelId=[channel ID]
 ```
 
 Select Japanese subtitles.
@@ -26,7 +35,7 @@ Scroll through the subtitles and have a quick glance to ensure these are creator
 
 ![image](../../assets/caption-pop-video-page.png)
 
-Finally, click on the title of the Embedded YouTube Player to launch a new browser tab of the YouTube video to copy its link.
+Click on the title of the Embedded YouTube Player to launch a new browser tab of the YouTube video to copy its link.
 
 ![image](../../assets/youtube-video-redirected-from-embed.png)
 
