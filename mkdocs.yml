@@ -12,12 +12,30 @@ theme:
       toggle:
         icon: material/toggle-switch-off-outline
         name: Switch to dark mode
+
+## Page tree
+nav:
+    - Welcome: index.md
+    - Background:
+      - 'What is Immersion Kit?': 'Background/index.md'
+      - 'How do we extract screenshots and audio?': 'Background/media-extraction.md'
+    - Contribution:
+      - 'Download tools': 'Contribution/index.md'
+      - 'Setup': 'Contribution/setup.md'
+      - 'Netflix': 'Contribution/netflix.md'
+      - 'YouTube': 'Contribution/youtube-videos.md'
+
+
 markdown_extensions:
+  - admonition
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
   - pymdownx.critic
   - pymdownx.caret
   - pymdownx.keys
   - pymdownx.mark
   - pymdownx.tilde
-  - admonition
   - pymdownx.details
   - pymdownx.superfences

@@ -42,7 +42,20 @@ Click on the title of the Embedded YouTube Player to launch a new browser tab of
 
 ## Download subtitle file
 
+Navigate to [savesubs.com](https://savesubs.com) to download subtitle files from YouTube.
 
+Paste your YouTube link and click **DOWNLOAD**.
+
+![image](../../assets/savesubs-with-url.png)
+
+Click on the **SRT** subtitle download for **JAPANESE**. 
+
+![image](../../assets/savesubs-srt.png)
+
+!!! warning
+    Make sure you are downloading the JAPANESE subtitles and not the JAPANESE (AUTO) subtitles.
 
 
 ## Download YouTube video
+
+TBA
