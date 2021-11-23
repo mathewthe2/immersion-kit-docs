@@ -24,7 +24,8 @@ nav:
       - 'Setup': 'Contribution/setup.md'
       - 'Netflix': 'Contribution/netflix.md'
       - 'YouTube': 'Contribution/youtube-videos.md'
-
+    - Public API:
+      - 'Search': 'Public API/search.md'
 
 markdown_extensions:
   - admonition
